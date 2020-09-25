@@ -1,7 +1,7 @@
 {
   "name": "vibranium",
   "version": "1.0.0",
-  "description": "Website for DSC Abesit",
+  "description": "Website for DSC SubSaharan Africa",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
