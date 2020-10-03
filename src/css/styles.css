@@ -1196,8 +1196,8 @@ hr{
   .carouselPrograms .carousel-inner .carousel-item-next,
   .carouselPrograms .carousel-inner .carousel-item-prev {
     position: relative;
-    right: 300px;
-    transform: translate3d(0, 0, 0);
+    right: 291px;
+    /* transform: translate3d(0, 0, 0); */
   }
   .carousel-control-next-i, .carousel-control-prev-i{
     position: relative;
@@ -1224,7 +1224,7 @@ hr{
   }
 
   /* left or forward direction */
-  .carouselPrograms .active.carousel-item-left + .carousel-item-next.carousel-item-left,
+  /* .carouselPrograms .active.carousel-item-left + .carousel-item-next.carousel-item-left, */
   .carouselPrograms .carousel-item-next.carousel-item-left + .carousel-item,
   .carouselPrograms .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item,
   .carouselPrograms .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item {
