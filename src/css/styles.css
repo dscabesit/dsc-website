@@ -1196,7 +1196,8 @@ hr{
   .carouselPrograms .carousel-inner .carousel-item-next,
   .carouselPrograms .carousel-inner .carousel-item-prev {
     position: relative;
-    right: 291px;
+    /* right: 291px; */
+    right: 33.3%;
     /* transform: translate3d(0, 0, 0); */
   }
   .carousel-control-next-i, .carousel-control-prev-i{
