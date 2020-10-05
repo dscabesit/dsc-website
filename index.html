@@ -491,9 +491,38 @@
                     </div>
                 </div>
             </div>
-            <div class="mt-40 text-center"><a href="mailto:dsc.abesit@gmail.com" class="hero-button">Send us an email</a></div>
         </div>
     </section>
+    
+    <!-- Contact section -->
+    <section class="section-spacer bg-very__gray">
+        <div class="row">
+           <div class="col-md-3"></div> <!--Blank Div-->
+            <div class="col-md-6">
+                <header class="section-header text-center">
+                    <h2 class="section-title">Have any Queries?</h2>
+                </header>
+                <form method="POST" action="./src/php/feedback.php"> <!-- feedback.php is used to send feedback messages -->
+                    <div class="form-group"> <!-- For Name -->
+                        <label for="name">Full Name</label>
+                        <input type="text" class="form-control" placeholder="Enter your full name" required>
+                    </div>
+                    <div class="form-group"> <!-- For Email -->
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" placeholder="Enter your email address" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label> <!-- For Message -->
+                        <textarea class="form-control" rows="3" placeholder="Say Hi, or enter your queries" required></textarea>
+                      </div>
+                    <button type="submit" class="hero-button">Send us an email</button> <!-- Button to submit -->
+                </form>
+                
+            </div>
+            <div class="col-md-3"></div> <!--Blank Div-->
+        </div>
+    </section>
+
     <footer class="section-spacer footer-section">
         <div class="container">
             <div class="row flex-column-reverse flex-sm-row flex-lg-row">
