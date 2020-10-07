@@ -26,7 +26,7 @@
 
     <!-- Google Analytics -->
     <script>
-        (function (i, s, o, g, r, a, m) {
+        (function (w, t, z, r, q, b, n) {
             i['GoogleAnalyticsObject'] = r;
             i[r] = i[r] || function () {
                 (i[r].q = i[r].q || []).push(arguments)
@@ -935,8 +935,8 @@
             }
         })
     }
-    const imageObserver = new IntersectionObserver(imageIntersectionObserverCallback, { rootMargin: '30px 0px' });
-    imageObserver.POLL_INTERVAL = 200;
+    const imageObserver = new IntersectionObserver(imageIntersectionObserverCallback, { rootMargin: '40px 0px' });
+    imageObserver.POLL_INTERVAL = 300;
     imageObserver.USE_MUTATION_OBSERVER = false;
     document.querySelectorAll('img[data-src]').forEach(img => {
         imageObserver.observe(img);
@@ -953,7 +953,7 @@
     }
 
     const iframeObserver = new IntersectionObserver(iframeObserverCallback, { rootMargin: '30px 0px' });
-    iframeObserver.POLL_INTERVAL = 200;
+    iframeObserver.POLL_INTERVAL = 300;
     iframeObserver.USE_MUTATION_OBSERVER = false;
     document.querySelectorAll('iframe[data-urllink]').forEach(img => {
         iframeObserver.observe(img);
